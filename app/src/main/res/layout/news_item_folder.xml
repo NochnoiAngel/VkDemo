@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/folder_forder_color"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+        <ImageButton
+            android:src="@drawable/ic_action_action_thumb_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/transparent"
+           />
+            <TextView
+                android:id="@+id/like_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:ems="2"
+                android:gravity="center_horizontal"
+                android:text="199"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/like_count_text_size"
+                android:textColor="@color/vk_color"
+                android:textStyle="bold"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>
